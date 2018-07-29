@@ -49,14 +49,20 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hoz\Components\CharacterController.cs" />
     <Compile Include="Hoz\Kernel\Contracts\IComponent.cs" />
     <Compile Include="Hoz\Kernel\Contracts\IKernel.cs" />
     <Compile Include="Hoz\Kernel\Contracts\ITick.cs" />
-    <Compile Include="Hoz\Kernel\Entity\Kernel.cs" />
-    <Compile Include="Hoz\Kernel\Entity\KernelException.cs" />
+    <Compile Include="Hoz\Kernel\Kernel\Kernel.cs" />
+    <Compile Include="Hoz\Kernel\Kernel\KernelException.cs" />
+    <Compile Include="Hoz\Tools\Physical\Contracts\IKinematicBody2D.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scenes\Main.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Hoz\Tools\Bt\" />
+    <Folder Include="Hoz\Tools\Fsm\" />
+    <Folder Include="Hoz\Tools\Input\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

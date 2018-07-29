@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using TheHoz.Hoz.Kernel.Contracts;
 
-namespace TheHoz.Hoz.Kernel.Entity
+namespace TheHoz.Hoz.Kernel.Kernel
 {
     public class Kernel : IKernel, ITick
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TheHoz.Hoz.Kernel.Entity
+namespace TheHoz.Hoz.Kernel.Kernel
 {
     public class KernelException : Exception
     {
